@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head><link rel="stylesheet" href="style.css">
+<title>Color Test</title>
+</head>
+<body>
+
+<style>
+h1{
+display: inline;
+}
+#yel{
+background: white;
+height: 100px;
+width: 220px;
+border: 0px;
+border-radius: 20px;
+margin: 10px;
+}
+#grn{
+background: lawngreen;
+height: 100px;
+width: 220px;
+border: 0px;
+border-radius: 20px;
+margin: 10px;
+}#red{
+background: red;
+height: 100px;
+width: 220px;
+border: 0px;
+border-radius: 20px;
+margin: 10px;
+}#blu{
+background: blue;
+height: 100px;
+width: 220px;
+border: 0px;
+border-radius: 20px;
+margin: 10px;
+}
+</style>
+<div class ="blur">
+
+
+<h1>Do You Want To Play<br> Colour Picker</h1>
+<br>
+<button id ="yel" onclick="ye()">Click Here</button>
+</div>
+
+<script>
+var myurl = "col1.html";
+document.getElementById("yel").onclick = function ye(){
+
+
+window.location.replace(myurl);
+}
+
+
+</script>
+<footer>
+Made by Piyush
+</footer>
+</body>
+</html>

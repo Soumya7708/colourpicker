@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head><link rel="stylesheet" href="style.css">
+<title>Color Test</title>
+</head>
+<body>
+
+<style>
+h1{
+display: inline;
+}
+#ret{
+background: white;
+height: 100px;
+width: 220px;
+border: 0px;
+border-radius: 20px;
+margin: 10px;
+}
+
+</style>
+<div class ="blur">
+
+
+<h1>You Lose</h1>
+<br>
+<button id ="ret" onclick="re()">Try Again</button>
+
+</div>
+
+<script>
+var myurl = "col11.html";
+document.getElementById("ret").onclick = function re(){
+
+
+window.location.replace(myurl);
+}
+
+
+</script>
+
+</body>
+</html>

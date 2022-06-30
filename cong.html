@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head><link rel="stylesheet" href="style.css">
+<title>Color Test</title>
+</head>
+<body>
+
+<style>
+h1{
+display: inline;
+}
+#yel{
+background: green;
+height: 100px;
+width: 220px;
+border: 0px;
+border-radius: 20px;
+margin: 10px;
+}
+#grn{
+background: orange;
+height: 100px;
+width: 220px;
+border: 0px;
+border-radius: 20px;
+margin: 10px;
+}#red{
+background: tan;
+height: 100px;
+width: 220px;
+border: 0px;
+border-radius: 20px;
+margin: 10px;
+}#blu{
+background: brown;
+height: 100px;
+width: 220px;
+border: 0px;
+border-radius: 20px;
+margin: 10px;
+}
+.lo{
+border-radius: 10px;
+border: 0px;
+}
+.boo{
+font-size: 42px;
+
+
+}
+</style>
+<button id ="lo" onclick="lo()">Home</button>
+<div class ="blur">
+<div id= "boo">
+<h1>Congratulations!!!</h1><br><br><br>
+<input id="text1" placeholder="Your Name">
+<button onclick="fn1()" ID="btn1">Click Here</button>
+</div>
+<script>
+
+
+var rl = "index.html";
+document.getElementById("lo").onclick = function lo(){
+
+
+window.location.replace(rl);
+}
+
+//start from here
+function fn1(){
+var str1 = document.getElementById("text1").value;
+document.getElementById("boo").innerHTML = ("<h6>Congratulations, "+str1+" You have successfully completed Color Picker By Piyush.<br><br> Thank You.</h6>");
+
+}
+
+</script>
+
+</body>
+</html>

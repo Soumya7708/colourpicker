@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head><link rel="stylesheet" href="style.css">
+<title>Color Test</title>
+</head>
+<body>
+
+<style>
+h1{
+display: inline;
+}
+#yel{
+background: yellow;
+height: 100px;
+width: 220px;
+border: 0px;
+border-radius: 20px;
+margin: 10px;
+}
+#grn{
+background: lawngreen;
+height: 100px;
+width: 220px;
+border: 0px;
+border-radius: 20px;
+margin: 10px;
+}#red{
+background: red;
+height: 100px;
+width: 220px;
+border: 0px;
+border-radius: 20px;
+margin: 10px;
+}#blu{
+background: blue;
+height: 100px;
+width: 220px;
+border: 0px;
+border-radius: 20px;
+margin: 10px;
+}
+.lo{
+border-radius: 10px;
+border: 0px;
+}
+</style>
+<button id ="lo" onclick="lo()">Home</button>
+<div class ="blur">
+
+
+<h1>Which of The Colour is Red ?</h1>
+<br>
+<button id ="yel" onclick="ye()">Click Here</button>
+<button id ="grn" onclick="gr()">Click Here</button>
+<br>
+<button id ="red" onclick="re()">Click Here</button>
+<button id ="blu" onclick="bl()">Click Here</button>
+</div>
+<p id="txt"> </p>
+<script>
+
+
+var rl = "index.html";
+document.getElementById("lo").onclick = function lo(){
+
+
+window.location.replace(rl);
+}
+
+//start from here
+
+var murl = "ret.html";
+var myurl = "col4.html";
+document.getElementById("yel").onclick = function ye(){
+
+
+window.location.replace(murl);
+}
+
+
+document.getElementById("grn").onclick = function gr(){
+
+
+window.location.replace(murl);
+}
+document.getElementById("red").onclick = function re(){
+
+
+window.location.replace(myurl);
+}
+document.getElementById("blu").onclick = function bl(){
+
+
+window.location.replace(murl);
+}
+alert("🎊🎊Correct Answer🎉🎉");
+</script>
+<footer>
+Level 3
+</footer>
+</body>
+</html>
